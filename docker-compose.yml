@@ -1,6 +1,7 @@
 services:
   gedproject:
     build: .
+    image: amachlou/ecommerse-js-spa-devops
     container_name: php-app
     ports:
       - "8080:80"

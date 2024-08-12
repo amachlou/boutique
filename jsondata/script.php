@@ -1,5 +1,5 @@
 <?php
-    $pdo = new PDO('mysql:host=localhost;dbname=db_2','root','');
+    $pdo = new PDO('mysql:host=db;dbname=boutique','myuser','mypassword');
 
     $jsondata = file_get_contents("produits.json");
 
