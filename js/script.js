@@ -8,6 +8,10 @@
 			async: true,
 			success: function (data) {
 				fetchProducts(data);
+			},
+			error : function(request,error)
+			{
+				alert("Request: "+JSON.stringify(request));
 			}
 		});
 	}

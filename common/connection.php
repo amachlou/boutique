@@ -1,5 +1,5 @@
 <?php 
-    $pdo = new PDO('mysql:host=db;dbname=boutique','myuser','mypassword');
+    $pdo = new PDO('pgsql:host=db;dbname=boutique','root', 'rootpassword');
 
     // select categories and counts of it;s products
     /*
